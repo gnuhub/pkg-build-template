@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+echo "begin to run preinstall"
+
+mkdir -p "$3/Users/stallman/test1"
+ls -l "$3/Users/stallman/test1"

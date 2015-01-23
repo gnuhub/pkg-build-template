@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+echo "begin to run postinstall"
+
+cd "$3/Users/stallman/test1"
+touch postinstall.txt
+ls -l "$3/Users/stallman/test1"
