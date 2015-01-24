@@ -6,7 +6,7 @@ before_install:
 install: echo "install"
 before_script: echo "before_script"
 script: "./build.sh"
-after_success: "./sf.upload.sh *.pkg"
+after_success: "./release.sh"
 after_failure: echo "after_failure"
 after_script: echo "after_script"
 addons:
