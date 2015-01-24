@@ -1,0 +1,3 @@
+name=travis_ci_osx_pkg_template
+identifier=com.gnuhub.${name}
+version=0.1
