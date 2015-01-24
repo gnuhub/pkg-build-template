@@ -1,12 +1,12 @@
 language: objective-c
 before_install:
-- openssl aes-256-cbc -K $encrypted_55bd3d9ec6aa_key -iv $encrypted_55bd3d9ec6aa_iv
+- openssl aes-256-cbc -K $encrypted_93a0c08ecd63_key -iv $encrypted_93a0c08ecd63_iv
   -in sf.enc -out sf -d
 - echo "before_install"
 install: echo "install"
 before_script: echo "before_script"
-script: ./build.sh
-after_success: ./sf.upload.sh *.pkg
+script: "./build.sh"
+after_success: "./sf.upload.sh *.pkg"
 after_failure: echo "after_failure"
 after_script: echo "after_script"
 addons:
