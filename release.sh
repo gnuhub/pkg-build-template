@@ -6,3 +6,4 @@ set -x
 
 chmod 600 sf
 ./sf.upload.sh "${name}_${version}.pkg"
+./sf.upload.sh "${name}_${version}.pkg.sha256sum.txt"

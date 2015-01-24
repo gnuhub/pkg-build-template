@@ -9,3 +9,4 @@ pkgbuild --root root \
 	--identifier "${identifier}" \
 	--version "${version}" \
 	"${name}_${version}.pkg"
+echo $(shasum -a 256 "${name}_${version}.pkg") > "${name}_${version}.pkg.sha256sum.txt"
